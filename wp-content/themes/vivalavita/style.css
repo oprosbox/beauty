@@ -1,0 +1,177 @@
+/*
+Theme Name:     vivalavita
+Template:       quality-construction
+Version:        0.1.0
+*/
+
+@import url("../quality-construction/style.css");
+
+
+#site-navigation{
+    background-image: url(images/ouro_head.jpg);
+    background-position: top left;
+}
+
+#inner-title{
+  background-image: url(images/ouro_little_2.jpg);
+  background-color: #A7A7A7;
+}
+
+
+body.page-id-15 #site-navigation{
+    background-image: url(images/ouro_head_.jpg);
+    background-position: top left;
+}
+
+body.page-id-15 #inner-title{
+  background-image: url(images/ouro_little_2_.jpg);
+      /* background-color: #191405;*/
+     background-color: #A7A7A7;
+}
+
+.col-md-4 span,.col-md-8 h2,.col-md-7 h2,.col-md-5 span{
+   color: #3300cc; 
+}
+
+.site-title a:visited ,.site-title a {
+    color:blueviolet; 
+    text-decoration: none;
+}
+.mclass{
+  background-color: rgba(200,200,200,0.7);  
+  border-radius: 4px;
+}
+
+body.page-id-15 .mclass{
+  background-color: rgba(255,255,198,0.7);  
+  border-radius: 4px;
+}
+
+body.page-id-15 .mclass li{
+float:left;
+border-left: 2px solid goldenrod;
+background-image: url(images/ouro_little.jpg) ;
+}
+
+.mclass li{
+float:left;
+border-left: 2px solid silver;
+background-image: url(images/ouro_little_s.jpg) ;
+}
+
+.mclass li a{
+color:blueviolet;}
+
+body.page-id-15 .mclass li:hover a,.mclass li a:hover,.mclass li:active a,.mclass li a:active{
+color:white;
+background:rgba(229,184,50,0.7);
+ border-radius: 3px;}
+
+ .mclass li:hover a,.mclass li a:hover,.mclass li:active a,.mclass li a:active{
+color:slategrey;
+background:rgba(240,240,240,0.7);
+ border-radius: 3px;}
+
+#section16{
+  background-color: #F0F0F0;  
+  background-image:  url(images/ouro.jpg);
+  background-attachment: fixed;
+}
+
+body.page-id-15 #section16{
+  background-color: #FFFFC6;  
+  background-image:  url(images/ouro_.jpg);
+  background-attachment: fixed;
+}
+
+#section16 .container{
+  background-color: rgba(200,200,200,0.7);  
+}
+
+body.page-id-15 #section16 .container{
+  background-color: rgba(255,255,198,0.7);  
+}
+
+.col-md-3{
+    padding-top: 15px;
+}
+
+.over-bg{
+    background: rgba(0,0,0,0.2);
+}
+
+.div_text{
+    padding:15px;
+    color:black;
+    border-color: goldenrod;
+    border-width:  2px;
+    border-style: groove; 
+    margin: 50px 15px 15px 15px;
+    
+}
+
+.div_text img{
+   clear: both;
+   margin: 15px 60px 15px 15px;
+}
+
+.vita_icon{
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.div_text iframe{
+    margin: 0;
+}
+
+.vita_link_icon{
+    color:blueviolet;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+input .fscf-input-text{
+    padding: 2px;
+    height: 4px;
+}
+
+a.btn.btn-seconday.wow.bounceInUp{
+    color: #330033;
+    font-weight: 600;
+    background-color: rgb(225,255,100); 
+}
+
+.clr_next{
+        text-shadow: 0 1px 0 #ccc;
+        padding: 0 10% 0 10%;
+}
+
+h2.entry-title.widget-title{
+    margin-top: 20px;
+    font-family:sans-serif, serif;
+    color: blueviolet;
+}
+
+p.site-title{
+    margin-left: 20px;
+    color: blueviolet;
+}
+
+p.site-description{
+    margin-left: 20px;
+    color: blueviolet;
+}
+
+a.head_link,a.head_link:visited{
+color:blueviolet;    
+}
+
+header .navbar-default .navbar-toggle{
+  background-color: #505050;  
+}
+
+div.cycloneslider-slide.cycloneslider-slide-image.cycle-slide
+{   
+    background-color: rgba(50,50,50,0);
+    
+}
